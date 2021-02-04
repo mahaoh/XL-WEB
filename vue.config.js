@@ -3,6 +3,7 @@ const pxtorem = require('postcss-pxtorem');
 
 module.exports = {
     outputDir:'docs',
+    publicPath: './',
     css: {
       loaderOptions: {
         postcss: {
